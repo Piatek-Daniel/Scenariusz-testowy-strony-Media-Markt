@@ -1,0 +1,22 @@
+Poniższy scenariusz testowy ma za zadanie przetestować działanie funkcji znajdujących się w zakładce "Moje konto" na koncie zalogowanego, aktywnego użytkownika.
+
+Spis przypadków testowych:
+ID 1. Poprawne zalogowanie się do konta użytkownika.
+ID 2. Test zakładki "Historia zakupów".
+ID 3. Test zakładki "Klub MediaMarkt".
+ID 4. Test zakładki "Moje kupony".
+ID 5. Test zakładki "Rejestracja zakupu ze sklepu".
+ID 6. Test zakładki "Adres dostawy".
+ID 7. Test zakładki "Newsletter".
+ID 8. Test zakładki "Karta podarunkowa".
+ID 9. Test zakładki "Zgody formalne".
+ID 10. Test zakładki "Porównania".
+ID 11. Test zakładki "Reklamacje".
+ID 12. Test zakładki "Moje dane".
+ID 13. Test zakładki "Wyloguj się".
+
+ID 1. Test funkcji "Historia zakupów"
+    1. Uruchom stronę mediamarkt.pl.
+    2. Naciśnij opcję "zaloguj się".
+    3. Wprowadź poprawne dane logowania istniejącego użytkownika.
+    4. Przejdź do zakładki historia zakupów
