@@ -3,7 +3,7 @@
     ID: TS01_MojeKonto_pozytywny
     Nazwa: Test funkcjonalności zakładki "Moje konto"
     Cel: Sprawdzenie funkcjonalności zakładek znajdujących się na koncie zalogowanego, aktywnego użytkownika
-    Typ: Testy funkcjonalne
+    Typ: Testy funkcjonalne, niskopoziomowe
     
 2. Wykaz czynności przygotowawczych scenariusza testowego:
 
@@ -17,7 +17,13 @@
 
     ID: TC_TS01_01
     Tytuł: Test zakładki "Historia zakupów"
-    Warunki wstępne: użytkownik jest zalogowany
+    Warunki wstępne pokrywają się z warunkami wstępnymi scenariusza
+    Kroki do wykonania testu:
+        1. Naciśnięcie przycisku "Hstoria zakupów".
+        2. Jeśli na liście znajduje się zakup, nacisnąć przycisk "Zobacz szczegóły".
+    Oczekiwany rezultat: Na stronie głównej zakładki powininna ukazać się lista dokonanych zakupów w formie tabeli, zawierającej: numery zakupów, daty zakupów, 
+    liczbę produktów, wartość zakupów, czy skorzystano z możliwości uzyskania FV oraz status zakupu. Jeśli nastąpiło przejście do zakładki "Zobacz szczegóły" dodatkowo
+    powinny pojawić się dane o: formie płatności, formie transportu, danych wysyłki oraz jej numer listu przewozowego (dla przesyłek kurierskich).
     ID: TC_TS01_03Test zakładki "Klub MediaMarkt"
     ID: TC_TS01_04Test zakładki "Moje kupony"
     ID: TC_TS01_05Test zakładki "Rejestracja zakupu ze sklepu"
