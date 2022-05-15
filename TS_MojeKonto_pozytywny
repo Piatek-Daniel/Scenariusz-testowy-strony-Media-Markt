@@ -1,0 +1,33 @@
+1. Identyfikacja scenariusza testowego:
+
+    ID: TS01_MojeKonto_pozytywny
+    Nazwa: Test funkcjonalności zakładki "Moje konto"
+    Cel: Sprawdzenie funkcjonalności zakładek znajdujących się na koncie zalogowanego, aktywnego użytkownika
+    Typ: Testy funkcjonalne
+    
+2. Wykaz czynności przygotowawczych scenariusza testowego:
+
+    - Przygotowanie stanowiska testowego - otworzenie przeglądarki internetowej na urządzeniu z dostępem do internetu oraz przygotowanie narzędzi 
+    do wykonania i udokumentowania testów
+    - Utworzenie konta użytkownika na stronie mediamarkt.pl
+    - Zalogowanie się na konto użytkownika na stronie mediamarkt.pl
+    - Przejście na stronę konta użytkownika https://mediamarkt.pl/profile
+    
+3. Wykaz przypadków testowych:
+
+    ID: TC_TS01_01
+    Tytuł: Test zakładki "Historia zakupów"
+    Warunki wstępne: użytkownik jest zalogowany
+    ID: TC_TS01_03Test zakładki "Klub MediaMarkt"
+    ID: TC_TS01_04Test zakładki "Moje kupony"
+    ID: TC_TS01_05Test zakładki "Rejestracja zakupu ze sklepu"
+    ID: TC_TS01_06Test zakładki "Adres dostawy"
+    ID: TC_TS01_07Test zakładki "Newsletter"
+    ID: TC_TS01_08Test zakładki "Karta podarunkowa"
+    ID: TC_TS01_09Test zakładki "Zgody formalne"
+    ID: TC_TS01_10Test zakładki "Porównania"
+    ID: TC_TS01_11Test zakładki "Reklamacje"
+    ID: TC_TS01_12Test zakładki "Moje dane"
+
+
+4. Wykaz czynności końcowych scenariusza testowego:
